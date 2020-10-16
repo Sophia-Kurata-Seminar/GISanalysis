@@ -1,5 +1,5 @@
 --- 
-title: "上智大学倉田研究室：GIS分析入門"
+title: "GIS分析入門"
 author: "倉田ゼミ"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
