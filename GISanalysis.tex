@@ -36,8 +36,8 @@
 \IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
 \IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
 \hypersetup{
-  pdftitle={A Minimal Book Example},
-  pdfauthor={Yihui Xie},
+  pdftitle={上智大学倉田研究室：GIS分析入門},
+  pdfauthor={倉田ゼミ},
   hidelinks,
   pdfcreator={LaTeX via pandoc}}
 \urlstyle{same} % disable monospaced font for URLs
@@ -111,8 +111,8 @@
 \usepackage[]{natbib}
 \bibliographystyle{apalike}
 
-\title{A Minimal Book Example}
-\author{Yihui Xie}
+\title{上智大学倉田研究室：GIS分析入門}
+\author{倉田ゼミ}
 \date{2020-10-16}
 
 \begin{document}
@@ -122,24 +122,33 @@
 \setcounter{tocdepth}{1}
 \tableofcontents
 }
-\hypertarget{prerequisites}{%
-\chapter{Prerequisites}\label{prerequisites}}
+\hypertarget{ux306fux3058ux3081ux306b}{%
+\chapter*{はじめに}\label{ux306fux3058ux3081ux306b}}
+\addcontentsline{toc}{chapter}{はじめに}
 
-This is a \emph{sample} book written in \textbf{Markdown}. You can use anything that Pandoc's Markdown supports, e.g., a math equation \(a^2 + b^2 = c^2\).
+上智大学経済学部の倉田正充研究室で作成・管理している\textbf{GIS分析入門}の学習ページです。
 
-The \textbf{bookdown} package can be installed from CRAN or Github:
+\hypertarget{ux30bdux30d5ux30c8ux30a6ux30a7ux30a2}{%
+\section{ソフトウェア}\label{ux30bdux30d5ux30c8ux30a6ux30a7ux30a2}}
 
-\begin{Shaded}
-\begin{Highlighting}[]
-\KeywordTok{install.packages}\NormalTok{(}\StringTok{"bookdown"}\NormalTok{)}
-\CommentTok{# or the development version}
-\CommentTok{# devtools::install_github("rstudio/bookdown")}
-\end{Highlighting}
-\end{Shaded}
+主に使用する予定のソフトウェア等は以下の通りです。
 
-Remember each Rmd file contains one and only one chapter, and a chapter is defined by the first-level heading \texttt{\#}.
+\begin{itemize}
+\tightlist
+\item
+  R/RStudio
+\item
+  QGIS
+\item
+  Google Earth Engine (GEE)
+\end{itemize}
 
-To compile this example to PDF, you need XeLaTeX. You are recommended to install TinyTeX (which includes XeLaTeX): \url{https://yihui.org/tinytex/}.
+また使用する言語は主にRですが、PythonやJavaScriptも一部で使用します。
+
+\hypertarget{ux60f3ux5b9aux3055ux308cux308bux8aadux8005}{%
+\section{想定される読者}\label{ux60f3ux5b9aux3055ux308cux308bux8aadux8005}}
+
+この学習ページでは特に前提知識を必要としません。様々な言語やソフトウェアの基本的な使用方法について全ては説明しませんが、最低限必要となる部分は解説しつつ、参考となるテキストやウェブサイトを適宜紹介します。
 
 \hypertarget{intro}{%
 \chapter{Introduction}\label{intro}}
